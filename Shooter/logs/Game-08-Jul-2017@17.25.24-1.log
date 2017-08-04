@@ -1,0 +1,266 @@
+22:04:08.471 [FXGL Launcher Thread     ] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+22:04:08.480 [FXGL Launcher Thread     ] DEBUG FXGL                 - FXGL configuration complete
+22:04:08.480 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+22:04:08.485 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+22:04:08.512 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+22:04:08.520 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+22:04:08.520 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+22:04:08.521 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2017-06-30T20:44:13.891
+22:04:08.567 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+22:04:08.574 [FXGL Launcher Thread     ] DEBUG FXGLExceptionHandler - Service [ExceptionHandler] initialized
+22:04:08.578 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Service [EventBus] initialized
+22:04:08.582 [FXGL Launcher Thread     ] DEBUG FXGLExecutor         - Service [Executor] initialized
+22:04:08.583 [FXGL Launcher Thread     ] DEBUG PreInitTask          - Injecting gameWorld & physicsWorld
+22:04:08.627 [FXGL Launcher Thread     ] DEBUG GameWorld            - Game world initialized
+22:04:08.856 [FXGL Launcher Thread     ] DEBUG FXGLPooler           - Service [Pooler] initialized with default size = 128
+22:04:08.856 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=720.0, physics.ppm=50.0
+22:04:08.858 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Service [Input] initialized
+22:04:08.900 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+22:04:08.901 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Dev Options - CTRL+0
+22:04:08.901 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Registered new binding: Shoot - PRIMARY
+22:04:08.908 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Service [AssetLoader] initialized: cacheSize=35
+22:04:08.909 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+22:04:08.981 [FXGL Launcher Thread     ] DEBUG GameScene            - Game scene initialized: 1280.0x720.0
+22:04:08.981 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/cursors/fxgl_default.png
+22:04:09.003 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/core/notification.wav
+22:04:09.160 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/select.wav
+22:04:09.161 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/back.wav
+22:04:09.162 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/sounds/menu/press.wav
+22:04:09.166 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+22:04:09.215 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+22:04:09.219 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl.css
+22:04:09.220 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/icons/fxgl_icon.png
+22:04:09.247 [FXGL Launcher Thread     ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/ui/css/fxgl_dark.css
+22:04:09.328 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 1280.0] x DoubleProperty [value: 720.0] @ 1.0
+22:04:09.328 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - New size:    1280.0 x 720.0 @ DoubleProperty [value: 1.0]
+22:04:09.329 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Service [Display] initialized
+22:04:09.329 [FXGL Launcher Thread     ] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/Users/yuan/.m2/repository/com/github/almasb/fxgl/0.3.0/fxgl-0.3.0.jar!/assets/ui/css/fxgl_dark.css)
+22:04:09.329 [FXGL Launcher Thread     ] DEBUG InitScenesTask       - Injecting loadingScene & gameScene
+22:04:09.335 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+22:04:09.338 [FXGL Launcher Thread     ] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+22:04:09.339 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - scanForServiceListeners
+22:04:09.339 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.MasterTimer
+22:04:09.340 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - FXGLListener: interface com.almasb.fxgl.service.Input
+22:04:09.340 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.AudioPlayer
+22:04:09.341 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.MasterTimer
+22:04:09.341 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Input
+22:04:09.341 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: interface com.almasb.fxgl.service.Display
+22:04:09.342 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.gameplay.AchievementManager
+22:04:09.342 [FXGL Launcher Thread     ] DEBUG AchievementManager   - Service [AchievementManager] initialized
+22:04:09.342 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - UserProfileSavable: class com.almasb.fxgl.service.impl.quest.FXGLQuestServiceProvider
+22:04:09.343 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - NotificationListener: interface com.almasb.fxgl.service.AudioPlayer
+22:04:09.343 [FXGL Launcher Thread     ] DEBUG InitEventHandlersTask - AchievementListener: interface com.almasb.fxgl.service.NotificationService
+22:04:09.384 [FXGL Launcher Thread     ] DEBUG SlidingNotificationService - Service [NotificationService] initialized
+22:04:09.394 [FXGL Launcher Thread     ] DEBUG GameApplication      - Starting new game
+22:04:09.396 [FXGL Launcher Thread     ] DEBUG GameApplication      - Initializing App
+22:04:09.398 [FXGL Launcher Thread     ] DEBUG GameApplication      - State: STARTUP -> PAUSED
+22:04:09.399 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Stopping master timer
+22:04:09.400 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+22:04:09.400 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+22:04:09.402 [FXGL Launcher Thread     ] DEBUG GameWorld            - Resetting game world
+22:04:09.402 [FXGL Launcher Thread     ] TRACE EntityWorld          - Resetting entity world
+22:04:09.403 [FXGL Launcher Thread     ] DEBUG PhysicsWorld         - Resetting physics world
+22:04:09.403 [FXGL Launcher Thread     ] DEBUG GameScene            - Resetting game scene
+22:04:09.403 [FXGL Launcher Thread     ] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+22:04:09.403 [FXGL Launcher Thread     ] DEBUG FXGLInput            - Clearing active input actions
+22:04:09.403 [FXGL Launcher Thread     ] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+22:04:09.496 [FXGL Launcher Thread     ] DEBUG GameApplication      - State: PAUSED -> LOADING
+22:04:09.535 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+22:04:09.537 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+22:04:09.537 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Injecting gameState
+22:04:09.630 [JavaFX Application Thread] DEBUG FXGLDisplay          - Showing stage
+22:04:09.631 [JavaFX Application Thread] DEBUG FXGLDisplay          - Root size: 1280.0x720.0
+22:04:09.631 [JavaFX Application Thread] DEBUG FXGLDisplay          - Scene size: 1280.0x720.0
+22:04:09.631 [JavaFX Application Thread] DEBUG FXGLDisplay          - Stage size: 1280.0x742.0
+22:04:09.757 [FastClasspathScanner-worker-0] DEBUG InitAppTask          - @SetEntityFactory: class com.almasb.fxglgames.shooter.ShooterFactory
+22:04:09.810 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/background.png
+22:04:09.979 [FXGL Background Thread 1 ] DEBUG GameScene            - Entity added to scene
+22:04:09.979 [FXGL Background Thread 1 ] DEBUG GameScene            - Added ViewComponent
+22:04:09.982 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+22:04:09.988 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+22:04:09.988 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+22:04:09.989 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+22:04:09.995 [JavaFX Application Thread] DEBUG GameApplication      - State: LOADING -> PLAYING
+22:04:10.004 [JavaFX Application Thread] DEBUG FXGLMasterTimer      - Starting master timer
+22:04:10.004 [JavaFX Application Thread] DEBUG FXGLInput            - Clearing active input actions
+22:04:10.004 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+22:04:11.060 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/Bullet.png
+22:04:11.085 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:11.085 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:11.132 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from disk: /assets/textures/Seeker.png
+22:04:11.143 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:11.143 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:11.273 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:11.274 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:11.274 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:11.461 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:11.462 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:11.462 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:11.642 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:11.643 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:11.643 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:12.150 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:12.150 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:12.150 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:13.166 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:13.167 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:13.167 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:13.543 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:13.544 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:13.544 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:13.703 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:13.703 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:13.703 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:13.859 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:13.860 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:13.860 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.018 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.019 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.019 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.172 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.173 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.173 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.183 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:14.183 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.183 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.342 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.343 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.343 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.500 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.502 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.503 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.670 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.670 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.670 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.859 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.860 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.860 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:14.994 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:14.994 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:14.994 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:15.154 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:15.155 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:15.155 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:15.199 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:15.200 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:15.200 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:15.369 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:15.371 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:15.371 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:15.522 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:15.523 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:15.523 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:15.705 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:15.705 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:15.706 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:16.215 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:16.216 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:16.216 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:16.231 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:16.232 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:16.232 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:16.389 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:16.389 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:16.389 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:17.232 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:17.256 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:17.256 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:18.266 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:18.266 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:18.267 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:18.359 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:18.359 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:18.359 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:18.876 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:18.877 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:18.877 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:19.055 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:19.055 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:19.055 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:19.223 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:19.224 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:19.224 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:19.282 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:19.283 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:19.283 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:19.393 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:19.394 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:19.394 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:19.586 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:19.586 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:19.587 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:20.299 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Seeker.png
+22:04:20.300 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:20.300 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:20.486 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:20.487 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:20.487 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:20.654 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:20.655 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:20.655 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:20.822 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:20.822 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:20.822 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:20.990 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:20.990 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:20.990 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:21.890 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:21.890 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:21.890 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:22.060 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:22.060 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:22.060 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:22.252 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:22.253 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:22.253 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:22.443 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:22.443 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:22.443 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:22.621 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:22.621 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:22.622 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:23.218 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:23.220 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:23.220 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:23.421 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:23.422 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:23.422 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:24.019 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:24.019 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:24.020 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:24.209 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:24.209 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:24.209 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:24.410 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:24.410 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:24.410 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:24.612 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:24.613 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:24.613 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:24.838 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:24.838 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:24.838 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:25.062 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:25.063 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:25.063 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:28.552 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:28.553 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:28.553 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:28.720 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:28.721 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:28.721 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:28.888 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:28.888 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:28.889 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:29.056 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:29.056 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:29.057 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:29.226 [JavaFX Application Thread] DEBUG FXGLAssetLoader      - Loading from cache: /assets/textures/Bullet.png
+22:04:29.226 [JavaFX Application Thread] DEBUG GameScene            - Entity added to scene
+22:04:29.227 [JavaFX Application Thread] DEBUG GameScene            - Added ViewComponent
+22:04:31.727 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=CLOSE_REQUEST]
+22:04:31.749 [JavaFX Application Thread] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=EXIT]
+22:04:31.750 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+22:04:31.751 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+22:04:31.769 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+22:04:31.772 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
