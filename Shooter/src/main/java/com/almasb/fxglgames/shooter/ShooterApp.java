@@ -46,7 +46,7 @@ public class ShooterApp extends GameApplication{
     @Override
     protected void initGameVars(Map<String,Object> vars){
         vars.put("enemies",0);
-
+//test
     }
 
     @Override
