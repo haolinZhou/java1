@@ -3,8 +3,11 @@ package com.almasb.fxglgames.shooter;
 import com.almasb.fxgl.app.ApplicationMode;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.core.math.FXGLMath;
+import com.almasb.fxgl.ecs.Entity;
 import com.almasb.fxgl.entity.GameEntity;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.physics.CollisionHandler;
+import com.almasb.fxgl.physics.PhysicsWorld;
 import com.almasb.fxgl.service.Input;
 import com.almasb.fxgl.settings.GameSettings;
 import javafx.scene.input.MouseButton;
@@ -51,11 +54,11 @@ public class ShooterApp extends GameApplication{
     @Override
     protected void initGame(){
         initBackground();
-
+getGameWorld().spawn("Wall",0,1);
         getMasterTimer().runAtInterval(
                 ()-> {
                     int numEnemies = getGameState().getInt("enemies");
-                    if (numEnemies<10){
+                    if (numEnemies<1000){
                         getGameWorld().spawn("Enemy",
                                 FXGLMath.random(0,(int)getWidth()-40),
                                 FXGLMath.random(0,(int)getHeight()-40)
@@ -63,7 +66,7 @@ public class ShooterApp extends GameApplication{
                         getGameState().increment("enemies",1);
 
                     }
-                }, Duration.seconds(1)
+                }, Duration.seconds(0.1)
         );
     }
 
@@ -72,6 +75,24 @@ public class ShooterApp extends GameApplication{
         GameEntity bg = new GameEntity();
         bg.getViewComponent().setTexture("background.png");
         getGameWorld().addEntity(bg);
+    }
+    protected void initPhysics() {
+        PhysicsWorld physicsWorld = getPhysicsWorld();
+        physicsWorld.addCollisionHandler(new CollisionHandler(ShooterType.BULLET, ShooterType.ENEMY) {
+            @Override
+            protected void onCollisionBegin(Entity bullet, Entity enemy) {
+                enemy.removeFromWorld();
+                bullet.removeFromWorld();
+
+                getGameState().increment("enemies", -1);
+            }
+        });
+        physicsWorld.addCollisionHandler(new CollisionHandler(ShooterType.BULLET,ShooterType.WALL) {
+            @Override
+            protected void onCollisionBegin(Entity bullet, Entity wall) {
+             bullet.removeFromWorld();
+            }
+        });
     }
 
     public static void main(String[] args) {

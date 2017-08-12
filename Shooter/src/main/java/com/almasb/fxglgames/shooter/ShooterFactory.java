@@ -10,6 +10,8 @@ import com.almasb.fxgl.entity.SpawnData;
 import com.almasb.fxgl.entity.component.CollidableComponent;
 import com.almasb.fxgl.entity.control.ProjectileControl;
 import javafx.geometry.Point2D;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 
 /**
  * Created by Book on 2017/5/20.
@@ -37,4 +39,12 @@ public class ShooterFactory implements EntityFactory {
                 .with(new CollidableComponent(true))
                 .build();
     }
-}
+    @Spawns("Wall")
+    public Entity newWall(SpawnData data){
+        return Entities.builder()
+                .from(data)
+                .type(ShooterType.WALL)
+                 .viewFromNodeWithBBox(new Rectangle(10000,10, Color.RED))
+                .with(new CollidableComponent(true))
+                .build();
+}}
